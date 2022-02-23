@@ -19,7 +19,7 @@
     ],
     "mcu": "at91sam3x8e",
     "usb_product": "Arduino Due",
-    "variant": "m2"
+    "variant": "m2",
     "zephyr": {
        "variant": "m2"
     }
