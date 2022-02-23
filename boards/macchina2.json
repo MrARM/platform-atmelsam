@@ -5,7 +5,7 @@
     },
     "core": "arduino",
     "cpu": "cortex-m3",
-    "extra_flags": "-D__SAM3X8E__ -DARDUINO_ARCH_SAM -DARDUINO_M2 -DMACCHINA_M2",
+    "extra_flags": "-D__SAM3X8E__ -DARDUINO_M2 -DMACCHINA_M2",
     "f_cpu": "84000000L",
     "hwids": [
       [
@@ -20,6 +20,9 @@
     "mcu": "at91sam3x8e",
     "usb_product": "Arduino Due",
     "variant": "m2"
+    "zephyr": {
+       "variant": "m2"
+    }
   },
   "connectivity": [
     "can"
